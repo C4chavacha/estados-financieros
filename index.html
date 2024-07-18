@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estados Financieros</title>
+    <title>Documentos Corporativos</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: url('https://your-background-image-url.com/mountains.jpg') no-repeat center center fixed;
+            background: url('https://your-background-image-url.com/trees.jpg') no-repeat center center fixed;
             background-size: cover;
             color: #333;
-            text-align: center;
             padding: 20px;
         }
         .container {
-            background-color: rgba(255, 255, 255, 0.8);
-            padding: 20px;
-            border-radius: 10px;
-            display: inline-block;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 800px;
+            margin: 0 auto;
         }
-        h1 {
+        h1, h2 {
             color: #2c3e50;
+        }
+        h2 {
+            border-bottom: 2px solid #2980b9;
+            padding-bottom: 5px;
         }
         a {
             color: #2980b9;
@@ -29,16 +33,42 @@
         a:hover {
             text-decoration: underline;
         }
+        .section {
+            margin-bottom: 30px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Estados Financieros</h1>
-        <ul>
-            <li><a href="ver_filial_BioEnergia.pdf" target="_blank">Estado Financiero BioEnergia</a></li>
-            <li><a href="ver_filial_Forestal.pdf" target="_blank">Estado Financiero Forestal</a></li>
-            <li><a href="ver_filial_Inversiones.pdf" target="_blank">Estado Financiero Inversiones</a></li>
-        </ul>
+        <h1>Documentos Corporativos</h1>
+        
+        <div class="section">
+            <h2>Estados Financieros</h2>
+            <ul>
+                <li><a href="ver_filial_BioEnergia.pdf" target="_blank">Estado Financiero BioEnergia</a></li>
+                <li><a href="ver_filial_Forestal.pdf" target="_blank">Estado Financiero Forestal</a></li>
+                <li><a href="ver_filial_Inversiones.pdf" target="_blank">Estado Financiero Inversiones</a></li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Presentaciones</h2>
+            <ul>
+                <li><a href="presentacion_bioenergia.pdf" target="_blank">Presentación BioEnergia</a></li>
+                <li><a href="presentacion_forestal.pdf" target="_blank">Presentación Forestal</a></li>
+                <li><a href="presentacion_inversiones.pdf" target="_blank">Presentación Inversiones</a></li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Fechas de Próximas Charlas</h2>
+            <ul>
+                <li>Charla BioEnergia: 15 de Agosto, 2024</li>
+                <li>Charla Forestal: 22 de Septiembre, 2024</li>
+                <li>Charla Inversiones: 10 de Octubre, 2024</li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
+
